@@ -142,7 +142,7 @@ angular.module('apf.appModule').service( 'apf.notificationService', ['Notificati
 
     this.showToast = function (notification) {
       notification.show = true;
-      console.log("Adding toast notification");
+
       this.toastNotifications.push(notification);
 
       if (notification.status !== 'danger' && notification.status !== 'error') {

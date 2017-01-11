@@ -1051,6 +1051,43 @@
   padding-bottom: 10px;
 }
 
+/* line 992, scss/main.scss */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  border-bottom-color: transparent;
+}
+
+/* line 998, scss/main.scss */
+pf-tooltip {
+  display: none;
+}
+
+/* line 1002, scss/main.scss */
+pf-tab {
+  padding: 15px;
+  display: block;
+  border: 1px solid #ddd;
+  border-top: none;
+  background-color: #fff;
+}
+
+/* line 1010, scss/main.scss */
+pf-alert {
+  display: block;
+}
+/* line 1012, scss/main.scss */
+pf-alert .hidden {
+  display: none;
+}
+
+/* line 1018, scss/main.scss */
+pf-utilization-bar-chart .progress-container.progress-description-left {
+  padding-left: 0px;
+}
+/* line 1021, scss/main.scss */
+pf-utilization-bar-chart .progress-container.progress-label-right {
+  padding-right: 0px;
+}
+
 /*
  * Charts
  */

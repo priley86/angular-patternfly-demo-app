@@ -14,6 +14,7 @@ angular.module ('apf.appModule', [
   'apf.containersModule',
   'apf.infrastructureModule',
   'apf.applicationsModule',
+  'apf.preferencesModule',
   'apf.reportsModule',
   'apf.adminModule'
 ]).config(['$routeProvider', '$translateProvider',
@@ -25,7 +26,8 @@ angular.module ('apf.appModule', [
         redirectTo: '/dashboard'
       })
       .when('/dashboard', {
-        templateUrl: 'src/dashboard/dashboard.html'
+        templateUrl: 'src/dashboard/dashboard.html',
+        controller: 'dashboardController'
       })
 
       // Default

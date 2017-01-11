@@ -986,3 +986,39 @@
     padding-bottom: 10px;
   }
 }
+
+.nav-tabs {
+  > li {
+    &.active > a, &.active > a:focus, &.active > a:hover {
+      border-bottom-color: transparent;
+    }
+  }
+}
+
+pf-tooltip {
+  display: none;
+}
+
+pf-tab {
+  padding:15px;
+  display:block;
+  border: 1px solid #ddd;
+  border-top: none;
+  background-color: $color-pf-white;
+}
+
+pf-alert {
+  display: block;
+  .hidden {
+    display: none;
+  }
+}
+
+pf-utilization-bar-chart {
+  .progress-container.progress-description-left {
+    padding-left: 0px;
+  }
+  .progress-container.progress-label-right {
+    padding-right: 0px;
+  }
+}
